@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcool_coding=self.webpackChunkcool_coding||[]).push([[6794],{5665:function(o){o.exports=JSON.parse('{"label":"React Conf 2021","permalink":"/blog/tags/react-conf-2021","allTagsPath":"/blog/tags","count":2}')}}]);

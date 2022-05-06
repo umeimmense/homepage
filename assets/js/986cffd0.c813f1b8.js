@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcool_coding=self.webpackChunkcool_coding||[]).push([[4119],{4597:function(o){o.exports=JSON.parse('{"label":"Network","permalink":"/blog/tags/network","allTagsPath":"/blog/tags","count":1}')}}]);

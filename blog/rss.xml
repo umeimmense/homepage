@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Cool Coding Blog</title>
-        <link>https://umeimmense.github.io/blog</link>
+        <link>https://umeimmense.github.io/homepage/blog</link>
         <description>Cool Coding Blog</description>
         <lastBuildDate>Sun, 01 May 2022 21:52:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>zh-Hans</language>
         <item>
             <title><![CDATA[MIT 课程 - 概览与 shell]]></title>
-            <link>https://umeimmense.github.io/blog/ke-cheng-gai-lan-yu-shell</link>
+            <link>https://umeimmense.github.io/homepage/blog/ke-cheng-gai-lan-yu-shell</link>
             <guid>/ke-cheng-gai-lan-yu-shell</guid>
             <pubDate>Sun, 01 May 2022 21:52:35 GMT</pubDate>
             <description><![CDATA[课程链接：课程概览与 shell · the missing semester of your cs education (missing-semester-cn.github.io)]]></description>
@@ -51,7 +51,7 @@ shell 基于空格分割命令并进行解析，然后执行第一个单词代�
         </item>
         <item>
             <title><![CDATA[PNG的工作原理：牺牲速度换取质量]]></title>
-            <link>https://umeimmense.github.io/blog/png-de-gong-zuo-yuan-li-xi-sheng-su-du-huan-qu-zhi-liang</link>
+            <link>https://umeimmense.github.io/homepage/blog/png-de-gong-zuo-yuan-li-xi-sheng-su-du-huan-qu-zhi-liang</link>
             <guid>/png-de-gong-zuo-yuan-li-xi-sheng-su-du-huan-qu-zhi-liang</guid>
             <pubDate>Thu, 28 Apr 2022 23:15:26 GMT</pubDate>
             <description><![CDATA[1]]></description>
@@ -59,7 +59,7 @@ shell 基于空格分割命令并进行解析，然后执行第一个单词代�
         </item>
         <item>
             <title><![CDATA[什么是 DNS？ | DNS 的工作方式]]></title>
-            <link>https://umeimmense.github.io/blog/shi-me-shi-dns-or-dns-de-gong-zuo-fang-shi</link>
+            <link>https://umeimmense.github.io/homepage/blog/shi-me-shi-dns-or-dns-de-gong-zuo-fang-shi</link>
             <guid>/shi-me-shi-dns-or-dns-de-gong-zuo-fang-shi</guid>
             <pubDate>Thu, 28 Apr 2022 22:13:23 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -77,7 +77,7 @@ DNS 查找的这 8 个步骤返回 example.com 的 IP 地址后，浏览器便�
         </item>
         <item>
             <title><![CDATA[React 中的事件处理]]></title>
-            <link>https://umeimmense.github.io/blog/react-de-shi-jian-chu-li</link>
+            <link>https://umeimmense.github.io/homepage/blog/react-de-shi-jian-chu-li</link>
             <guid>/react-de-shi-jian-chu-li</guid>
             <pubDate>Mon, 11 Apr 2022 16:18:20 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -87,7 +87,7 @@ DNS 查找的这 8 个步骤返回 example.com 的 IP 地址后，浏览器便�
         </item>
         <item>
             <title><![CDATA[React 中的事件冒泡和捕获]]></title>
-            <link>https://umeimmense.github.io/blog/react-shi-jian-mou-pao-he-bu-huo</link>
+            <link>https://umeimmense.github.io/homepage/blog/react-shi-jian-mou-pao-he-bu-huo</link>
             <guid>/react-shi-jian-mou-pao-he-bu-huo</guid>
             <pubDate>Sun, 10 Apr 2022 16:17:20 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -103,7 +103,7 @@ DNS 查找的这 8 个步骤返回 example.com 的 IP 地址后，浏览器便�
         </item>
         <item>
             <title><![CDATA[React 中的浅比较是如何工作的？]]></title>
-            <link>https://umeimmense.github.io/blog/react-zhong-de-qian-bi-jiao-shi-ru-he-gong-zuo-de</link>
+            <link>https://umeimmense.github.io/homepage/blog/react-zhong-de-qian-bi-jiao-shi-ru-he-gong-zuo-de</link>
             <guid>/react-zhong-de-qian-bi-jiao-shi-ru-he-gong-zuo-de</guid>
             <pubDate>Sat, 09 Apr 2022 15:34:48 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -113,7 +113,7 @@ DNS 查找的这 8 个步骤返回 example.com 的 IP 地址后，浏览器便�
         </item>
         <item>
             <title><![CDATA[React Suspense 基本指南]]></title>
-            <link>https://umeimmense.github.io/blog/react-suspense-ji-ben-zhi-nan</link>
+            <link>https://umeimmense.github.io/homepage/blog/react-suspense-ji-ben-zhi-nan</link>
             <guid>/react-suspense-ji-ben-zhi-nan</guid>
             <pubDate>Tue, 22 Mar 2022 03:16:27 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -122,7 +122,7 @@ DNS 查找的这 8 个步骤返回 example.com 的 IP 地址后，浏览器便�
         </item>
         <item>
             <title><![CDATA[React 18 中的自动批处理]]></title>
-            <link>https://umeimmense.github.io/blog/react-18-zhong-de-zi-dong-pi-chu-li</link>
+            <link>https://umeimmense.github.io/homepage/blog/react-18-zhong-de-zi-dong-pi-chu-li</link>
             <guid>/react-18-zhong-de-zi-dong-pi-chu-li</guid>
             <pubDate>Mon, 14 Mar 2022 21:37:21 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -134,7 +134,7 @@ DNS 查找的这 8 个步骤返回 example.com 的 IP 地址后，浏览器便�
         </item>
         <item>
             <title><![CDATA[探索 React 18 的三个新 API]]></title>
-            <link>https://umeimmense.github.io/blog/tan-suo-react-18-de-san-ge-xin-api</link>
+            <link>https://umeimmense.github.io/homepage/blog/tan-suo-react-18-de-san-ge-xin-api</link>
             <guid>/tan-suo-react-18-de-san-ge-xin-api</guid>
             <pubDate>Thu, 03 Mar 2022 00:16:50 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -148,7 +148,7 @@ Hook 不知道如果选择器函数的结果值发生变化，它是否可以重
         </item>
         <item>
             <title><![CDATA[React 18 并发（Concurrent）渲染的入门指南]]></title>
-            <link>https://umeimmense.github.io/blog/concurrent-rendering</link>
+            <link>https://umeimmense.github.io/homepage/blog/concurrent-rendering</link>
             <guid>/concurrent-rendering</guid>
             <pubDate>Wed, 02 Mar 2022 15:21:22 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -162,7 +162,7 @@ Hook 不知道如果选择器函数的结果值发生变化，它是否可以重
         </item>
         <item>
             <title><![CDATA[React Router 6：嵌套路由]]></title>
-            <link>https://umeimmense.github.io/blog/react-router-6qian-tao-lu-you</link>
+            <link>https://umeimmense.github.io/homepage/blog/react-router-6qian-tao-lu-you</link>
             <guid>/react-router-6qian-tao-lu-you</guid>
             <pubDate>Tue, 14 Dec 2021 11:28:09 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -176,7 +176,7 @@ Hook 不知道如果选择器函数的结果值发生变化，它是否可以重
         </item>
         <item>
             <title><![CDATA[ JavaScript 中的 Heap]]></title>
-            <link>https://umeimmense.github.io/blog/javascript-zhong-de-dui</link>
+            <link>https://umeimmense.github.io/homepage/blog/javascript-zhong-de-dui</link>
             <guid>/javascript-zhong-de-dui</guid>
             <pubDate>Mon, 13 Dec 2021 11:18:28 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -201,7 +201,7 @@ const max = -heappop(heap)</p><div class="codeBlockContainer_MPoW theme-code-blo
         </item>
         <item>
             <title><![CDATA[JavaScript 中的稀疏数组与密集数组的区别？]]></title>
-            <link>https://umeimmense.github.io/blog/javascript-zhong-de-xi-shu-shu-zu-yu-mi-ji-shu-zu-de-qu-bie</link>
+            <link>https://umeimmense.github.io/homepage/blog/javascript-zhong-de-xi-shu-shu-zu-yu-mi-ji-shu-zu-de-qu-bie</link>
             <guid>/javascript-zhong-de-xi-shu-shu-zu-yu-mi-ji-shu-zu-de-qu-bie</guid>
             <pubDate>Sun, 12 Dec 2021 16:02:13 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -216,7 +216,7 @@ const max = -heappop(heap)</p><div class="codeBlockContainer_MPoW theme-code-blo
         </item>
         <item>
             <title><![CDATA[JavaScript 中的 Trie：什么是前缀树？]]></title>
-            <link>https://umeimmense.github.io/blog/javascript-zhong-de-trieshi-me-shi-qian-zhui-shu</link>
+            <link>https://umeimmense.github.io/homepage/blog/javascript-zhong-de-trieshi-me-shi-qian-zhui-shu</link>
             <guid>/javascript-zhong-de-trieshi-me-shi-qian-zhui-shu</guid>
             <pubDate>Fri, 10 Dec 2021 16:02:42 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -233,7 +233,7 @@ const max = -heappop(heap)</p><div class="codeBlockContainer_MPoW theme-code-blo
         </item>
         <item>
             <title><![CDATA[JavaScript 将树遍历算法应用于 DOM]]></title>
-            <link>https://umeimmense.github.io/blog/javascript-jiang-shu-bian-li-suan-fa-ying-yong-yu-dom</link>
+            <link>https://umeimmense.github.io/homepage/blog/javascript-jiang-shu-bian-li-suan-fa-ying-yong-yu-dom</link>
             <guid>/javascript-jiang-shu-bian-li-suan-fa-ying-yong-yu-dom</guid>
             <pubDate>Thu, 09 Dec 2021 14:10:43 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -262,7 +262,7 @@ const firstRow = myQuerySelector(<!-- -->[".container", ".row"]<!-- -->)</p><div
         </item>
         <item>
             <title><![CDATA[JavaScript 中的 Tree 使用父指针高效遍历]]></title>
-            <link>https://umeimmense.github.io/blog/javascript-zhong-de-tree-shi-yong-fu-zhi-zhen-gao-xiao-bian-li</link>
+            <link>https://umeimmense.github.io/homepage/blog/javascript-zhong-de-tree-shi-yong-fu-zhi-zhen-gao-xiao-bian-li</link>
             <guid>/javascript-zhong-de-tree-shi-yong-fu-zhi-zhen-gao-xiao-bian-li</guid>
             <pubDate>Wed, 08 Dec 2021 11:18:12 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -278,7 +278,7 @@ const firstRow = myQuerySelector(<!-- -->[".container", ".row"]<!-- -->)</p><div
         </item>
         <item>
             <title><![CDATA[JavaScript 中的 Tree]]></title>
-            <link>https://umeimmense.github.io/blog/javascript-zhong-de-tree</link>
+            <link>https://umeimmense.github.io/homepage/blog/javascript-zhong-de-tree</link>
             <guid>/javascript-zhong-de-tree</guid>
             <pubDate>Tue, 07 Dec 2021 16:17:31 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -300,7 +300,7 @@ curr = curr.left // get to leftmost child
         </item>
         <item>
             <title><![CDATA[JavaScript 引擎如何提升其运行时的性能？]]></title>
-            <link>https://umeimmense.github.io/blog/javascript-yin-qing-ru-he-ti-sheng-qi-yun-xing-shi-de-xing-neng</link>
+            <link>https://umeimmense.github.io/homepage/blog/javascript-yin-qing-ru-he-ti-sheng-qi-yun-xing-shi-de-xing-neng</link>
             <guid>/javascript-yin-qing-ru-he-ti-sheng-qi-yun-xing-shi-de-xing-neng</guid>
             <pubDate>Thu, 02 Dec 2021 22:43:28 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -312,7 +312,7 @@ curr = curr.left // get to leftmost child
         </item>
         <item>
             <title><![CDATA[7 个可能需要的自定义 React Hook]]></title>
-            <link>https://umeimmense.github.io/blog/ke-neng-xu-yao-de-7-ge-zi-ding-yi-react-hook</link>
+            <link>https://umeimmense.github.io/homepage/blog/ke-neng-xu-yao-de-7-ge-zi-ding-yi-react-hook</link>
             <guid>/ke-neng-xu-yao-de-7-ge-zi-ding-yi-react-hook</guid>
             <pubDate>Mon, 29 Nov 2021 22:52:17 GMT</pubDate>
             <description><![CDATA[前言]]></description>
@@ -324,7 +324,7 @@ curr = curr.left // get to leftmost child
         </item>
         <item>
             <title><![CDATA[10个常用的 JavaScript 使用技巧]]></title>
-            <link>https://umeimmense.github.io/blog/shi-ge-chang-yong-de-javascript-shi-yong-ji-qiao</link>
+            <link>https://umeimmense.github.io/homepage/blog/shi-ge-chang-yong-de-javascript-shi-yong-ji-qiao</link>
             <guid>/shi-ge-chang-yong-de-javascript-shi-yong-ji-qiao</guid>
             <pubDate>Tue, 23 Nov 2021 15:48:55 GMT</pubDate>
             <description><![CDATA[前言]]></description>

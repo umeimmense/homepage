@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcool_coding=self.webpackChunkcool_coding||[]).push([[4958],{4340:function(e){e.exports=JSON.parse('{"label":"React Router","permalink":"/blog/tags/react-router","allTagsPath":"/blog/tags","count":1}')}}]);
