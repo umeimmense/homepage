@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcool_coding=self.webpackChunkcool_coding||[]).push([[781],{3417:function(o){o.exports=JSON.parse('{"label":"Browser","permalink":"/blog/tags/browser","allTagsPath":"/blog/tags","count":1}')}}]);

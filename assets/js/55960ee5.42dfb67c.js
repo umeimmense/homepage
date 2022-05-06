@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcool_coding=self.webpackChunkcool_coding||[]).push([[4121],{8070:function(c){c.exports=JSON.parse('[{"label":"React","permalink":"/docs/tags/react","count":14}]')}}]);
