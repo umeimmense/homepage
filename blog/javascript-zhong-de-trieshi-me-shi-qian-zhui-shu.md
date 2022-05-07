@@ -6,9 +6,9 @@ tags: [JavaScript,Algorithm]
 ---
 ## 前言
 我们已经在三篇文章中介绍了树数据结构的基础知识。如果你还没有读过这些，我强烈建议先阅读前三篇文章：
-- [使用递归和迭代算法遍历二叉树](https://umeimmense.github.io/post/javascript-zhong-de-tree/)
-- [使用父指针遍历二叉树](https://umeimmense.github.io/post/javascript-zhong-de-tree-shi-yong-fu-zhi-zhen-gao-xiao-bian-li/)
-- [将树遍历算法应用于 DOM](https://umeimmense.github.io/post/javascript-jiang-shu-bian-li-suan-fa-ying-yong-yu-dom/)
+- [使用递归和迭代算法遍历二叉树](./javascript-zhong-de-tree.md)
+- [使用父指针遍历二叉树](./javascript-zhong-de-tree-shi-yong-fu-zhi-zhen-gao-xiao-bian-li.md)
+- [将树遍历算法应用于 DOM](./javascript-jiang-shu-bian-li-suan-fa-ying-yong-yu-dom.md)
 
 ## 介绍
 Trie 是树数据结构的一种变体。它也被称为前缀树或搜索树的变体。就像 n 叉树数据结构一样，trie 可以有 n 个来自单亲的孩子。通常，trie 中的所有节点都会存储一些字符。假设我们只处理英语单词，下面是一个简单的 trie 可能看起来像：

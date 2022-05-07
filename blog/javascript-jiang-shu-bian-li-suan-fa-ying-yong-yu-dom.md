@@ -6,12 +6,12 @@ tags: [JavaScript,Algorithm]
 ---
 ## 前言
 到目前为止，我们已经了解了一些二叉树遍历的方法：
-- [使用递归和迭代算法遍历二叉树](https://umeimmense.github.io/post/javascript-zhong-de-tree/)
-- [使用父指针遍历二叉树](https://umeimmense.github.io/post/javascript-zhong-de-tree-shi-yong-fu-zhi-zhen-gao-xiao-bian-li/)
+- [使用递归和迭代算法遍历二叉树](./javascript-zhong-de-tree.md)
+- [使用父指针遍历二叉树](./javascript-zhong-de-tree-shi-yong-fu-zhi-zhen-gao-xiao-bian-li.md)
 在本文中，我们将把这些知识用于 n 叉树，即 DOM。我们将看到如何使用各种 CSS 选择器定位 DOM 元素，而无需使用内置 API，如 getElementById、getElementsByClassname 或 querySelector/querySelectorAll。因此，本文将阐明这些 API 可能如何在幕后工作。
 
 ## DOM 遍历
-借用 [使用递归和迭代算法遍历二叉树](https://umeimmense.github.io/post/javascript-zhong-de-tree/)的思路，我们来得出DOM的前序遍历算法：
+借用 [使用递归和迭代算法遍历二叉树](./javascript-zhong-de-tree.md)的思路，我们来得出DOM的前序遍历算法：
 ```javascript
 function walkPreOrder(node){
   if(!node) return

@@ -4,49 +4,42 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '自我介绍',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       我是一洋, 毕业于重庆邮电大学，一名工作两年的前端工程师，目前工作于一家全球领先的实时互动API平台专业服务商，从事全栈工程师的工作。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '专业技能',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <div>追求代码高质量、可维护性</div>
+        <div>熟练使用ES6+语法编程,以<code>React</code>、<code>Less</code>、<code>Vite/Webpack</code>、<code>Node.js</code>等为常用技术栈，同时也了解主流的<code>Vue</code>、<code>Sass</code>、<code>Stylus</code>等技术。</div>
+        <div>熟练使用GoLang以<code>Gin</code>结合<code>Mysql</code>作为开发工具。</div>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '爱好及个人评价',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <div>爱好旅游（每年固定一次独立旅行），坚持每周至少四天运动，阅读经济学及个人成长类的书籍。</div>
+        <div>时刻保持好奇心，具有一定的创新创造精神，持续关注业内前沿技术。</div>
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

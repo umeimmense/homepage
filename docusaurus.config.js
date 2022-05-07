@@ -6,10 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cool Coding',
-  tagline: 'On learning is a bitter root, but sweet fruit.',
+  title: 'Hello! 我是一洋',
+  tagline: '学问是苦根上长出来的甜果。',
   url: 'https://umeimmense.github.io',
-  baseUrl: '/',
+  baseUrl: '/homepage/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -38,16 +38,21 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/umeimmense/homepage/blob/main/docs/intro.md',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           blogSidebarTitle: '全部博文',
           blogSidebarCount: 'ALL',
+          postsPerPage: 10,
+          feedOptions: {
+            type: 'rss',
+            copyright: `Copyright © ${new Date().getFullYear()} YI YANG FU.`,
+          },
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/umeimmense/homepage/tree/main/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,9 +65,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Cool Coding',
+        title: '一洋',
         logo: {
-          alt: 'Cool Coding Logo',
+          alt: 'Logo',
           src: 'img/avatar.png',
         },
         items: [
@@ -87,41 +92,11 @@ const config = {
       },
       announcementBar: {
         id: 'announcementBar', // Any value that will identify this message.
-        content: `👊坚持学习，持续进步🌞`,
+        content: `👊坚持学习，持续进步🌞。`,
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: '文档',
-            items: [
-              {
-                label: '教程',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: '社交',
-            items: [
-              
-            ],
-          },
-          {
-            title: '更多',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/umeimmense/homepage',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} YI YANG FU, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} YI YANG FU 基于 Docusaurus 构建。`,
       },
       prism: {
         theme: lightCodeTheme,

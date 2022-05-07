@@ -34,7 +34,7 @@ React 当前形式的问题之一是所有状态更新都是同步的。 这意�
 幸运的是，并发渲染并不止于此。 虽然并发渲染还有很多方面需要理解或深入研究，但本文作为介绍以进入整个主题，并允许你从这里开始进一步探索 React 18。
 
 下面准备了一些资料
-[这里](https://umeimmense.github.io/post/tan-suo-react-18-de-san-ge-xin-api/)介绍了 React 18 中引入的三个新 API。所有这些 API 都是允许某些开发人员在某些场景中选择并发渲染的hook。
+[这里](./tan-suo-react-18-de-san-ge-xin-api.md)介绍了 React 18 中引入的三个新 API。所有这些 API 都是允许某些开发人员在某些场景中选择并发渲染的hook。
 [官方的 React 18 公告](https://reactjs.org/blog/2021/06/08/the-plan-for-react-18.html)是了解更多关于 React 18、不同特性、如何采用它以及关于即将发布的 React 版本的所有信息的好地方。
 [React 工作组](https://github.com/reactwg/react-18/discussions)是了解更多技术方面、获得更多指导、了解不同 API 和特性背后的思维过程以及总体上更深入地了解 React 18 中所有内容的好地方。
 这就是全部！ 现在你已经牢牢掌握了并发渲染的主题，在 React 18 中为你打开了一个全新的世界供你探索。走出去，探索并享受这个新的冒险！
