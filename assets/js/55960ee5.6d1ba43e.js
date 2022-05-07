@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhomepage=self.webpackChunkhomepage||[]).push([[4121],{8070:function(e){e.exports=JSON.parse('[{"label":"React","permalink":"/homepage/docs/tags/react","count":14}]')}}]);

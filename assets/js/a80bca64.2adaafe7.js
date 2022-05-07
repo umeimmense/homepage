@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhomepage=self.webpackChunkhomepage||[]).push([[2454],{9692:function(e){e.exports=JSON.parse('{"permalink":"/homepage/blog/tags/the-missing-semester-of-your-cs-education","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
