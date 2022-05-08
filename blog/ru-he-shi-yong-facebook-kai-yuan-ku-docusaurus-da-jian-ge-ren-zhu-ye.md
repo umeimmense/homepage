@@ -69,7 +69,7 @@ pnpm create docusaurus
 
 </details>
 
-## Project structure {#project-structure}
+## 项目结构
 
 假设您选择了经典模板并将网站命名为 `my-website`，您将会在新目录 `my-website/` 下看到下列文件：
 
@@ -99,7 +99,7 @@ my-website
 └── yarn.lock
 ```
 
-### Project structure rundown {#project-structure-rundown}
+### 解释项目结构
 
 - `/blog/` - 包含博客的 Markdown 文件。 [详情可参考](https://docusaurus.io/zh-CN/docs/blog)
 - `/docs/` - 包含文档的 Markdown 文件。 您可在 sidebars.js 中自定义文档的侧边栏顺序。 [详情可参考](https://docusaurus.io/zh-CN/docs)
