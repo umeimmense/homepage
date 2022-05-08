@@ -40,6 +40,7 @@ const config = {
           editUrl:
             'https://github.com/umeimmense/homepage/blob/main/docs/intro.md',
         },
+        
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -78,6 +79,7 @@ const config = {
             label: '教程',
           },
           {to: '/blog', label: '博客', position: 'right'},
+          { to: '/note', label: '读书笔记',position: 'right' },
           {
             href: 'https://umeimmense.github.io/resume',
             label: '简历',
