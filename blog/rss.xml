@@ -59,18 +59,6 @@ shell 基于空格分割命令并进行解析，然后执行第一个单词代�
             <category>The-Missing-Semester-of-Your-CS-Education</category>
         </item>
         <item>
-            <title><![CDATA[PNG的工作原理：牺牲速度换取质量]]></title>
-            <link>https://umeimmense.github.io/homepage/blog/png-de-gong-zuo-yuan-li-xi-sheng-su-du-huan-qu-zhi-liang</link>
-            <guid>/png-de-gong-zuo-yuan-li-xi-sheng-su-du-huan-qu-zhi-liang</guid>
-            <pubDate>Thu, 28 Apr 2022 23:15:26 GMT</pubDate>
-            <description><![CDATA[前言]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="前言">前言<a class="hash-link" href="#前言" title="标题的直接链接">​</a></h2><p>本节我们主题是深入了解PNG图片格式的工作原理，了解是其是如何通过一种相当巧妙方法压缩图像从而在所有网站上保留最原始的图像质量。下面是源视频可参考。</p><blockquote><p><a href="https://www.youtube.com/watch?v=EFUYNoFRHQI" target="_blank" rel="noopener noreferrer">How PNG Works: Compromising Speed for Quality</a></p></blockquote><p>平时我们最常用的图片格式就是<code>png</code>和<code>jpeg</code>。 <code>jpeg</code>一个非常常见的问题就是一些特定的图像在压缩后会出现一些伪像（如下图），特别是当这些图像中具有矢量图形或文本时，这些伪像是<code>jpeg</code> 为了节省更多空间故意丢弃的信息。 <code>png</code>就没有这样的问题，本节的主题就是从无损压缩的角度理解<code>png</code>。
-<img loading="lazy" src="/homepage/assets/images/picture1-3bd99caea59360c41d2dcc03ff31f5ce.png" width="1534" height="700" class="img_E7b_"></p><h2 class="anchor anchorWithStickyNavbar_mojV" id="png的实现原理">png的实现原理<a class="hash-link" href="#png的实现原理" title="标题的直接链接">​</a></h2><p>想象给一张由红绿蓝色素组成的图像，并要求将图像压缩到尽可能少的位数。
-<img loading="lazy" src="/homepage/assets/images/picture2-e7e7b4bdc7de8138f537f0aab2a5b18b.png" width="1752" height="894" class="img_E7b_"></p><p>一个关键的约束是无论你使用哪种压缩算法，都必须有一种办法将其反转并返回完全相同的图像。相同数量的素，并且像素一一对应，你在多大程度上解决问题，无损压缩中常见的一个想法是利用冗余。<img loading="lazy" src="/homepage/assets/images/picture3-432ea954565fef7ce57415a14eb8e651.png" width="1790" height="882" class="img_E7b_"></p><p>下面让我们专注于这个图像中的一个通道，以在这个特定通道中找到比其他像素更常见，保持简单。也许我们可以利用这一点更少的空间来表示。
-<img loading="lazy" src="/homepage/assets/images/picture4-7fd66312d50620ea3e48942d80ef3566.png" width="728" height="720" class="img_E7b_"><img loading="lazy" src="/homepage/assets/images/picture5-38a5823d7f314614a0fd7adc4671c225.png" width="762" height="724" class="img_E7b_">
-如果不熟悉霍夫曼代码，我们可以独立获取像素并可以图像中像素的频率，我们按照升序将这些频率进行排序。</p><p><img loading="lazy" src="/homepage/assets/images/picture6-65afa19f975cd90a3e6dbc236dc31b9d.png" width="298" height="624" class="img_E7b_"></p><p><img loading="lazy" src="/homepage/assets/images/picture7-f58095f12cc10839226f242727ee6551.png" width="1512" height="652" class="img_E7b_"></p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[什么是 DNS？ | DNS 的工作方式]]></title>
             <link>https://umeimmense.github.io/homepage/blog/shi-me-shi-dns-or-dns-de-gong-zuo-fang-shi</link>
             <guid>/shi-me-shi-dns-or-dns-de-gong-zuo-fang-shi</guid>
