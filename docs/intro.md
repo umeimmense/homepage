@@ -4,5 +4,5 @@ sidebar_position: 1
 
 # 介绍
 
-一些 react 相关教程。
+记录日常学习的入门教程。
 
