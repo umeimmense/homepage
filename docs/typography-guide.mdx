@@ -1,0 +1,2569 @@
+---
+title: "Typography guide"
+date: 2022-11-20 21:39:29
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+### Headings
+
+<Tabs>
+  <TabItem value="Default-heading" label="Default-heading" default>
+    <h1
+    style={{
+        marginBottom: "1em",
+        fontSize: "3em",
+        fontWeight: 800,
+        letterSpace: "-.025em",
+        lineHeight: 1,
+        color: "rgb(17,24,39)",
+    }}
+    >
+    Please fill in here
+    </h1>
+    <p
+    style={{
+        textIndent:"2em",
+        marginBottom: "1.5em",
+        fontSize: "1.125em",
+        fontWeight: 400,
+        lineHeight: "1.75em",
+        color: "rgb(107,114,128)",
+    }}
+    >
+    Please fill in here
+    </p>
+
+```html
+<h1
+  style="margin-bottom: 1em; font-size: 2.25em; font-weight: 800; letter-spacing: -0.025em; line-height: 1;color: rgb(17, 24, 39);"
+>
+  Please fill in here
+</h1>
+<p
+  style="text-indent: 2em; font-weight: 400; margin-top: 1em; margin-bottom: 1em; font-size: 1.125em; line-height: 1.75em; color: rgb(107, 114, 128);"
+>
+  Please fill in here
+</p>
+```
+
+  </TabItem>
+  <TabItem value="Second-level heading" label="Second-level heading">
+    <h2
+    style={{
+        fontSize: "2.25em",
+        fontWeight: 800,
+        lineHeight: 1
+    }}
+    >
+    Please fill in here
+    </h2>
+    <p
+    style={{
+        textIndent:"2em",
+        marginTop: "1em",
+        marginBottom:"1em",
+        fontSize: "1.125em",
+        lineHeight: "1.75em",
+        color: "rgb(107, 114, 128)",
+    }}
+    >
+    Please fill in here
+    </p>
+    <p
+    style={{
+        textIndent:"2em",
+        fontSize: "1.125em",
+        color: "rgb(107, 114, 128)",
+        lineHeight: "1.75em",
+        fontWeight: 400,
+    }}
+    >
+    Please fill in here
+    </p>
+
+```html
+<h2 style="font-size: 2.25em; font-weight: 800; line-height: 1">
+  Please fill in here
+</h2>
+<p
+  style="text-indent: 2em; margin-top: 1em; margin-bottom: 1em; font-size: 1.125em; line-height: 1.75em; color: rgb(107, 114, 128);"
+>
+  Please fill in here
+</p>
+<p
+  style="text-indent: 2em; margin-top: 1em; margin-bottom: 1em; font-size: 1.125em; line-height: 1.75em; color: rgb(107, 114, 128); font-weight: 400;"
+>
+  Please fill in here
+</p>
+```
+
+  </TabItem>
+<TabItem value="Highlighted heading" label="Highlighted heading">
+    <h1
+    style={{
+        fontSize: "2.25em",
+        fontWeight: 800,
+        lineHeight: 1
+    }}
+    >
+    Please fill in here
+    </h1>
+    <p
+    style={{
+        textIndent:"2em",
+        marginTop: "1em",
+        marginBottom:"1em",
+        fontSize: "1.125em",
+        lineHeight: "1.75em",
+        color: "rgb(17, 24, 39)",
+    }}
+    >
+    Please fill in here
+    </p>
+
+```html
+<h2 style="font-size: 2.25em; font-weight: 800; line-height: 1">
+  Please fill in here
+</h2>
+<p
+  style="text-indent: 2em; margin-top: 1em; margin-bottom: 1em; font-size: 1.125em; line-height: 1.75em; color: rgb(107, 114, 128);"
+>
+  Please fill in here
+</p>
+<p
+  style="text-indent: 2em; margin-top: 1em; margin-bottom: 1em; font-size: 1.125em; line-height: 1.75em; color: rgb(107, 114, 128); font-weight: 400;"
+>
+  Please fill in here
+</p>
+```
+
+</TabItem>
+
+<TabItem value="Heading mark" label="Heading mark">
+  <h1 style={{ 
+    color:'rgb(17,24,39)', 
+    letterSpacing:'-.025em' , 
+    lineHeight:1, 
+    fontWeight:800, 
+    fontSize:'2.25em',
+    marginBottom: '1em',
+    marginTop: '0',
+    marginLeft: '0',
+    marginRight: '0'
+    }}>
+    Please 
+    <mark style={{ color:'rgb(255,255,255)',paddingLeft:'0.5em',paddingRight:'0.5em',backgroundColor:'rgb(28,100,242)',borderRadius:'.25em'}}>Please fill in here</mark>
+    fill in here
+  </h1>
+  <p style={{ textIndent:"2em",color:'rgb(107,114,128)',  lineHeight:'1.75em', fontWeight:400, fontSize:'1.125em',margin: '0' }}>Please fill in here</p>
+
+```html
+<h1
+  style="color:#111827;letter-spacing:-.025em;line-height:1;font-weight:800;font-size:2.25em;marginBottom: 1em;marginTop: 0;marginLeft: 0;marginRight: 0;"
+>
+  Please
+  <mark
+    style="color:#fff;padding-left:.5em;padding-right:.5em;background-color:#1c64f2;border-radius:.25em"
+    >Please fill in here</mark
+  >
+  fill in here
+</h1>
+<p
+  style="text-indent:2em;color:#6b7280;line-height:1.75em;font-weight:400;font-size:1.125em;margin: 0"
+>
+  Please fill in here
+</p>
+```
+
+</TabItem>
+<TabItem value="Heading gradient" label="Heading gradient">
+
+<h1
+  style={{
+    color: "rgb(17,24,39)",
+    fontWeight: 800,
+    fontSize: "1.875em",
+    lineHeight: "2.25em",
+    marginBottom: "1em",
+  }}
+>
+  <span
+    style={{
+      color: "transparent",
+      WebkitBackgroundClip: "text",
+      backgroundImage: "linear-gradient(to right,#38bdf8,#059669)",
+    }}
+  >
+    Please fill in here
+  </span>
+  Please fill in here
+</h1>
+<p
+  style={{
+    color: "rgb(107,114,128)",
+    fontWeight: 400,
+    lineHeight: "1.75em",
+    fontSize: "1.125em",
+    textIndent: "2em",
+  }}
+>
+  Please fill in here
+</p>
+
+```html
+<h1
+  style="color:#111827;font-weight:800;font-size:1.875em;line-height:2.25em;margin-bottom:1em"
+>
+  <span
+    style="color:transparent;webkit-background-clip:text;background-image:linear-gradient(to right,#38bdf8,#059669)"
+    >Please fill in here</span
+  >
+  Please fill in here
+</h1>
+<p
+  style="color:#6b7280;font-weight:400;line-height:1.75em;font-size:1.125em;text-indent:2em"
+>
+  Please fill in here
+</p>
+```
+
+</TabItem>
+<TabItem value="Heading underline" label="Heading underline">
+<h1
+style={{
+    color: "rgb(17,24,39)",
+    letterSpacing:" -.025em",
+    lineHeight: 1,
+    fontWeight: 800,
+    fontSize: "2.25em",
+    marginBottom: "1em",
+    }}
+>
+Please fill in here
+<span
+  style={{
+    textDecorationThickness: "8px",
+    textDecorationColor: "#76a9fa",
+    textDecorationLine: "underline",
+  }}
+>Please fill in here</span>
+
+</h1>
+<p style={{
+  color: "rgb(107,114,128)",
+  fontWeight: 400,
+  lineHeight: "1.75em",
+  fontSize: "1.125em",
+  textIndent:"2em"
+}}>Please fill in here</p>
+
+```html
+<h1
+  style="color:#111827;letter-spacing:-.025em;line-height:1;font-weight:800;font-size:2.25em;margin-bottom:1em"
+>
+  Please fill in here
+  <span
+    style="text-decoration-thickness:8px;text-decoration-color:#76a9fa;text-decoration-line:underline"
+    >Please fill in here</span
+  >
+</h1>
+<p
+  style="color:#6b7280;font-weight:400;line-height:1.75em;font-size:1.125em;text-indent:2em"
+>
+  Please fill in here
+</p>
+```
+
+</TabItem>
+<TabItem value="Breadcrumb context" label="Breadcrumb context">
+<nav aria-label="Breadcrumb" style={{
+    display: 'flex',
+    marginBottom: '1em'
+}}>
+<ol style={{
+    display: 'inline-flex',
+    alignItems: 'center',
+    listStyle: 'none',
+    margin: 0,
+    padding: 0
+}}>
+<li style={{
+    display: 'inline-flex',
+    alignItems: 'center'
+}}>
+  <a href="#" style={{
+    color: 'rgb(55,65,81)',
+    fontWeight: 500,
+    fontSize: '.875em',
+    lineHeight: '1.25em',
+    alignItems: 'center',
+    display: 'inline-flex',
+    textDecoration: 'inherit'
+}}>Please fill in here</a>
+
+</li>
+<li>
+  <div style={{
+    display: 'flex',
+    alignItems: 'center'
+}}>
+<svg  style={{
+  color:'rgb(156,163,175)',
+  width: '1.5em,',
+  height: '1.5em'
+}} fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path></svg>
+<a href="#" style={{
+    color: 'rgb(55,65,81)',
+    fontWeight: 500,
+    fontSize: '.875em',
+    lineHeight: '1.25em',
+    marginLeft: '0.25em',
+    textDecoration: 'inherit'
+}}>Please fill in here</a>
+
+  </div>
+</li>
+<li aria-current="page">
+  <div style={{
+    display: 'flex',
+    alignItems: 'center'
+}}>
+<svg  style={{
+  color:'rgb(156,163,175)',
+  width: '1.5em,',
+  height: '1.5em'
+}} fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path></svg>
+    <span style={{
+    color: 'rgb(107,114,128)',
+    fontWeight: 500,
+    fontSize: '.875em',
+    lineHeight: '1.25em',
+    marginLeft: '0.25em'
+}}>Please fill in here</span>
+  </div>
+</li>
+</ol>
+</nav>
+
+<h2
+  style={{
+    color: "rgb(17,24,39)",
+    letterSpacing: "-.025em",
+    lineHeight: 1,
+    fontWeight: 800,
+    fontSize: "1.875em",
+    marginBottom: "1em",
+  }}
+>
+  Please fill in here
+</h2>
+
+```html
+<nav aria-label="Breadcrumb" style="display:flex;margin-bottom:1em">
+  <ol
+    style="display:inline-flex;align-items:center;list-style:none;margin:0;padding:0"
+  >
+    <li style="display:inline-flex;align-items:center">
+      <a
+        href="#"
+        style="color:#374151;font-weight:500;font-size:.875em;line-height:1.25em;align-items:center;display:inline-flex;text-decoration:inherit"
+        >Please fill in here</a
+      >
+    </li>
+    <li>
+      <div style="display:flex;align-items:center">
+        <svg
+          style="color:#9ca3af;width:1.5em;height:1.5em"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fillRule="evenodd"
+            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+            clipRule="evenodd"
+          ></path>
+        </svg>
+        <a
+          href="#"
+          style="color:#374151;font-weight:500;font-size:.875em;line-height:1.25em;margin-left:.25em;text-decoration:inherit"
+          >Please fill in here</a
+        >
+      </div>
+    </li>
+    <li aria-current="page">
+      <div style="display:flex;align-items:center">
+        <svg
+          style="color:#9ca3af;width:1.5em;height:1.5em"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fillRule="evenodd"
+            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+            clipRule="evenodd"
+          ></path>
+        </svg>
+        <span
+          style="color:#6b7280;font-weight:500;font-size:.875em;line-height:1.25em;margin-left:.25em"
+          >Please fill in here</span
+        >
+      </div>
+    </li>
+  </ol>
+</nav>
+<h2
+  style="color:#111827;letter-spacing:-.025em;line-height:1;font-weight:800;font-size:1.875em;margin-bottom:1em"
+>
+  Please fill in here
+</h2>
+```
+
+</TabItem>
+
+<TabItem label='Badge context' value='Badge context'>
+  
+  <h1 style={{
+    fontWeight: '800',
+    fontSize: '3em',
+    lineHeight: '1',
+    alignItems: 'center',
+    display: 'flex',
+    margin: '0'
+  }}>Please fill in here<span style={{
+    color: 'rgb(30 66 159/1)',
+    fontWeight: '600',
+    fontSize: '1.5em',
+    lineHeight: '2em',
+    paddingBottom: '.125em',
+    paddingTop: '.125em',
+    paddingLeft: '.625em',
+    paddingRight: '.625em',
+    backgroundColor: 'rgb(225 239 254/1)',
+    borderRadius: '.25em',
+    marginRight: '.5em',
+    marginLeft: '.5em'
+  }}>Please fill in here</span></h1>
+
+```html
+<h1
+  style="
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 1;
+    align-items: center;
+    display: flex;
+    margin: 0;
+  "
+>
+  Please fill in here
+  <span
+    style="
+      color: rgb(30 66 159/1);
+      font-weight: 600;
+      font-size: 1.5em;
+      line-height: 2em;
+      padding-bottom: 0.125em;
+      padding-top: 0.125em;
+      padding-left: 0.625em;
+      padding-right: 0.625em;
+      background-color: rgb(225 239 254/1);
+      border-radius: 0.25em;
+      margin-right: 0.5em;
+      margin-left: 0.5em;
+    "
+  >
+    Please fill in here
+  </span>
+</h1>
+```
+
+</TabItem>
+
+<TabItem value="Secondary text" label="Secondary text">
+<h1 style={{
+  fontWeight: '800',
+  fontSize: '3em',
+  lineHeight: '1'
+}}>
+  Please fill in here
+  <small style={{
+    color: 'rgb(107,114,128)',
+    fontWeight: '600',
+    marginLeft: '.5em',
+    fontSize: '80%'
+  }}>
+    Please fill in here
+  </small>
+</h1>
+
+```html
+<h1 style="font-weight:800;font-size:3em;line-height:1">
+  Please fill in here
+  <small style="color:#6b7280;font-weight:600;margin-left:.5em;font-size:80%"
+    >Please fill in here</small
+  >
+</h1>
+```
+
+</TabItem>
+
+<TabItem label='Sizes' value='Sizes'>
+  <b>Heading one (H1)</b>
+
+<h1
+  style={{
+    fontWeight: "800",
+    fontSize: "3em",
+    lineHeight: "1",
+    margin: "0",
+  }}
+>
+  Please fill in here
+</h1>
+
+```html
+<h1
+  style="
+    font-weight: 800;
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+  "
+>
+  Please fill in here
+</h1>
+```
+
+<b>Heading one (H2)</b>
+
+<h2
+  style={{
+    fontWeight: "700",
+    fontSize: "2.25em",
+    lineHeight: "2.5em",
+    margin: "0",
+  }}
+>
+  Please fill in here
+</h2>
+
+```html
+<h2
+  style="
+    font-weight: 700;
+    font-size: 2.25em;
+    line-height: 2.25em;
+    margin: 0;
+  "
+>
+  Please fill in here
+</h2>
+```
+
+<b>Heading one (H3)</b>
+
+<h3
+  style={{
+    fontWeight: "700",
+    fontSize: "1.875em",
+    lineHeight: "2.25em",
+    margin: "0",
+  }}
+>
+  Please fill in here
+</h3>
+
+```html
+<h3
+  style="
+    font-weight: 700;
+    font-size: 1.875em;
+    line-height: 2.25em;
+    margin: 0;
+  "
+>
+  Please fill in here
+</h3>
+```
+
+<b>Heading one (H4)</b>
+
+<h4
+  style={{
+    fontWeight: "700",
+    fontSize: "1.5em",
+    lineHeight: "2em",
+    margin: "0",
+  }}
+>
+  Please fill in here
+</h4>
+
+```html
+<h4
+  style="
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin: 0;
+  "
+>
+  Please fill in here
+</h4>
+```
+
+<b>Heading one (H5)</b>
+
+<h5
+  style={{
+    fontWeight: "700",
+    fontSize: "1.25em",
+    lineHeight: "1.75em",
+    margin: "0",
+  }}
+>
+  Please fill in here
+</h5>
+
+```html
+<h5
+  style="
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 1.75em;
+    margin: 0;
+  "
+>
+  Please fill in here
+</h5>
+```
+
+<b>Heading one (H6)</b>
+
+<h6
+  style={{
+    fontWeight: "700",
+    fontSize: "1.125em",
+    lineHeight: "1.75em",
+    margin: "0",
+  }}
+>
+  Please fill in here
+</h6>
+
+```html
+<h6
+  style="
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 1.75em;
+    margin: 0;
+  "
+>
+  Please fill in here
+</h6>
+```
+
+</TabItem>
+</Tabs>
+
+### Paragraphs
+
+<Tabs>
+  <TabItem label="Default paragraph" value="Default paragraph">
+    <p style={{
+      color: 'rgb(107,114,128)',
+      fontWeight: '300',
+      marginBottom: '.75em'
+    }}>Please fill in here</p>
+    <p style={{
+      color:'rgb(107,114,128)',
+      fontWeight: '300'
+    }}>Please fill in here</p>
+
+```html
+<p
+  style="
+  color: rgb(107, 114, 128);
+  font-weight: 300;
+  margin-bottom: 0.75em;
+"
+>
+  Please fill in here
+</p>
+<p style="color: rgb(107, 114, 128); font-weight: 300">Please fill in here</p>
+```
+
+  </TabItem>
+  <TabItem label="Leading paragraph" value="Leading paragraph">
+    <p style={{
+      color: 'rgb(107,114,128)',
+      fontWeight: '300',
+      lineHeight: '1.75em',
+      fontSize: '1.125em',
+      marginBottom: '.75em',
+    }}>Please fill in here</p>
+    <p style={{
+      color: 'rgb(107,114,128)',
+      fontWeight: '300'
+    }}>Please fill in here</p>
+
+```html
+<p
+  style="color:#6b7280;font-weight:300;line-height:1.75em;font-size:1.125em;margin-bottom:.75em"
+>
+  Please fill in here
+</p>
+<p style="color:#6b7280;font-weight:300">Please fill in here</p>
+```
+
+  </TabItem>
+
+<TabItem label="Paragraph bold" value="Paragraph bold">
+  <p
+    style={{
+      color: "rgb(107,114,128)",
+      fontWeight: "300",
+      marginBottom: ".75em",
+    }}
+  >
+    Please fill in here
+    <strong
+      style={{
+        color: "rgb(17,24,39)",
+        fontWeight: "600",
+      }}
+    >
+      Please fill in here
+    </strong>
+  </p>
+
+```html
+<p
+  style="
+    color: rgb(107, 114, 128);
+    font-weight: 300;
+    margin-bottom: 0.75em;
+  "
+>
+  Please fill in here
+  <strong style="color: rgb(17, 24, 39); font-weight: 600">
+    Please fill in here
+  </strong>
+</p>
+<p
+  style="
+    color: rgb(107, 114, 128);
+    font-weight: 300;
+    margin-bottom: 0.75em;
+  "
+></p>
+```
+
+</TabItem>
+
+<TabItem label="Paragraph underline" value="Paragraph underline">
+  
+  <p style={{
+    color: 'rgb(107,114,128)',
+    fontWeight: '300',
+    marginBottom: '.75em'
+  }}> Please fill in here
+  <u  style={{
+    WebkitTextDecorationLine: 'underline',
+    textDecorationLine: 'underline'
+  }}>Please fill in here</u></p>
+
+```html
+<p
+  style="
+  color: rgb(107, 114, 128);
+  font-weight: 300;
+  margin-bottom: 0.75em;
+"
+>
+  Please fill in here
+  <u
+    style="
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+  "
+  >
+    Please fill in here
+  </u>
+</p>
+```
+
+</TabItem>
+<TabItem label="Layout" value="Layout">
+<p
+  style={{
+    color: "rgb(107,114,128)",
+    fontWeight: "300",
+    marginBottom: ".75em",
+  }}
+>
+  One column
+</p>
+<p
+  style={{
+    color: "rgb(107,114,128)",
+    fontWeight: "300",
+    marginBottom: ".75em",
+  }}
+>
+  One column
+</p>
+
+```html
+<p
+  style="
+    color: rgb(107, 114, 128);
+    font-weight: 300;
+    margin-bottom: 0.75em;
+  "
+>
+  One column
+</p>
+<p
+  style="
+    color: rgb(107, 114, 128);
+    font-weight: 300;
+    margin-bottom: 0.75em;
+  "
+>
+  One column
+</p>
+```
+
+</TabItem>
+<TabItem label='Text alignment' value='Text alignment'>
+
+<p
+  style={{
+    color: "rgb(107,114,128)",
+    fontWeight: "300",
+    textAlign: "left",
+    marginBottom: ".75em",
+  }}
+>
+  left
+</p>
+
+```html
+<p
+  style="
+    color: rgb(107, 114, 128);
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 0.75em;
+  "
+>
+  left
+</p>
+```
+
+<p
+  style={{
+    color: "rgb(107,114,128)",
+    fontWeight: "300",
+    textAlign: "center",
+    marginBottom: ".75em",
+  }}
+>
+  center
+</p>
+
+```html
+<p
+  style="
+    color: rgb(107, 114, 128);
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0.75em;
+  "
+>
+  center
+</p>
+```
+
+<p
+  style={{
+    color: "rgb(107,114,128)",
+    fontWeight: "300",
+    textAlign: "right",
+    marginBottom: ".75em",
+  }}
+>
+  right
+</p>
+
+```html
+<p
+  style="
+    color: rgb(107, 114, 128);
+    font-weight: 300;
+    text-align: right;
+    margin-bottom: 0.75em;
+  "
+>
+  right
+</p>
+```
+
+</TabItem>
+
+</Tabs>
+
+### Blockquote
+
+<Tabs>
+  <TabItem label='Default blockquote' value='Default blockquote'>
+    
+    <blockquote style={{
+      color: 'rgb(17,24,39',
+      fontStyle: 'italic',
+      fontWeight: '600',
+      fontSize: '1.25em',
+      lineHeight: '1.75em',
+    }}>
+        <p>Please fill in here</p>
+    </blockquote>
+
+```html
+<blockquote
+  style="color:rgb(17,24,39;font-style:italic;font-weight:600;font-size:1.25em;line-height:1.75em"
+>
+  <p>Please fill in here</p>
+</blockquote>
+```
+
+  </TabItem>
+  <TabItem label='Solid background' value='Solid background'>
+<p style={{
+color: 'rgb(107,114,128)'
+}}>Please fill in here</p>
+<blockquote style={{
+  padding: '1em',
+  backgroundColor: 'rgb(249,250,251)',
+  borderColor: 'rgb(209,213,219)',
+  borderLeftWidth: '4px',
+  marginBottom: '1em',
+  marginTop: '1em'
+}}>
+    <p style={{
+      color: 'rgb(17,24,39)',
+      lineHeight: '1.625',
+      fontStyle: 'italic',
+      fontWeight: '500',
+      fontSize: '1.25em'
+    }}>Please fill in here</p>
+</blockquote>
+<p style={{
+  color: 'rgb(107,114,128)'
+}}>Please fill in here</p>
+
+```html
+<p style="color: rgb(107, 114, 128)">Please fill in here</p>
+<blockquote
+  style="
+    padding: 1em;
+    background-color: rgb(249, 250, 251);
+    border-color: rgb(209, 213, 219);
+    border-left-width: 4px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  "
+>
+  <p
+    style="
+      color: rgb(17, 24, 39);
+      line-height: 1.625;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 1.25em;
+    "
+  >
+    Please fill in here
+  </p>
+</blockquote>
+<p style="color: rgb(107, 114, 128)">Please fill in here</p>
+```
+
+  </TabItem>
+  <TabItem label='User testimonial' value='User testimonial'>
+    <figure style={{
+      textAlign: 'center',
+      maxWidth: '768px',
+      marginLeft: 'auto',
+      marginRight: 'auto'
+    }}>
+        <svg style={{
+          color: 'rgb(156,163,175)',
+          width: '3em',
+          height: '3em',
+          marginBottom: '.75em',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          display: 'block',
+          verticalAlign: 'middle'
+        }} aria-hidden="true" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+        <blockquote>
+            <p style={{
+              color: 'rgb(17,24,39)',
+              fontStyle: 'italic',
+              fontWeight: '500',
+              fontSize: '1.5em',
+              lineHeight: '2em'
+            }}>Please fill in here</p>
+        </blockquote>
+        <figcaption style={{
+          justifyContent: 'center',
+          alignItems: 'center',
+          display: 'flex',
+          marginTop: '1.5em'
+        }}>
+            <img style={{
+              borderRadius: '9999px',
+              width: '1.5em',
+              height: '1.5em',
+              height: 'auto',
+              maxWidth: '100%',
+              display: 'block',
+              verticalAlign: 'middle'
+            }} src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture"/>
+            <div>
+                <cite style={{
+                  color: 'rgb(17,24,39)',
+                  fontWeight: '500',
+                  paddingRight: '.75em'
+                }}>Please fill in here</cite>
+                <cite>Please fill in here</cite>
+            </div>
+        </figcaption>
+    </figure>
+
+```html
+<figure
+  style="
+    text-align: center;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  "
+>
+  <svg
+    style="
+      color: rgb(156, 163, 175);
+      width: 3em;
+      height: 3em;
+      margin-bottom: 0.75em;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      vertical-align: middle;
+    "
+    aria-hidden="true"
+    viewBox="0 0 24 27"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+      fill="currentColor"
+    ></path>
+  </svg>
+  <blockquote>
+    <p
+      style="
+        color: rgb(17, 24, 39);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 1.5em;
+        line-height: 2em;
+      "
+    >
+      Please fill in here
+    </p>
+  </blockquote>
+  <figcaption
+    style="
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-top: 1.5em;
+    "
+  >
+    <img
+      style="
+        border-radius: 9999px;
+        width: 1.5em;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        vertical-align: middle;
+      "
+      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+      alt="profile picture"
+    />
+    <div>
+      <cite
+        style="
+          color: rgb(17, 24, 39);
+          font-weight: 500;
+          padding-right: 0.75em;
+        "
+      >
+        Please fill in here
+      </cite>
+      <cite>Please fill in here</cite>
+    </div>
+  </figcaption>
+</figure>
+```
+
+  </TabItem>
+  <TabItem label='Alignment' value='Alignment'>
+    
+    <blockquote style={{
+      color: 'rgb(17,24,39)',
+      fontStyle: 'italic',
+      fontWeight: '600',
+      fontSize: '1.25em',
+      lineHeight: '1.75em',
+      textAlign: 'left'
+    }}>
+        <p>Please fill in here</p>
+    </blockquote>
+
+```html
+<blockquote
+  style="
+    color: rgb(17, 24, 39);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.75em;
+    text-align: left;
+  "
+>
+  <p>Please fill in here</p>
+</blockquote>
+```
+
+<blockquote
+  style={{
+    color: "rgb(17,24,39)",
+    fontStyle: "italic",
+    fontWeight: "600",
+    fontSize: "1.25em",
+    lineHeight: "1.75em",
+    textAlign: "center",
+  }}
+>
+  <p>Please fill in here</p>
+</blockquote>
+
+```html
+<blockquote
+  style="
+    color: rgb(17, 24, 39);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.75em;
+    text-align: center;
+  "
+>
+  <p>Please fill in here</p>
+</blockquote>
+```
+
+<blockquote
+  style={{
+    color: "rgb(17,24,39)",
+    fontStyle: "italic",
+    fontWeight: "600",
+    fontSize: "1.25em",
+    lineHeight: "1.75em",
+    textAlign: "right",
+  }}
+>
+  <p>Please fill in here</p>
+</blockquote>
+
+```html
+<blockquote
+  style="
+    color: rgb(17, 24, 39);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.75em;
+    text-align: right;
+  "
+>
+  <p>Please fill in here</p>
+</blockquote>
+```
+
+  </TabItem>
+
+  <TabItem label='Sizes' value='Sizes'>
+    
+    <blockquote style={{
+      color: 'rgb(17,24,39)',
+      fontStyle: 'italic',
+      fontWeight: '600',
+      lineHeight: '1.75em',
+      fontSize: '1.125em'
+    }}>
+        <p>Please fill in here</p>
+    </blockquote>
+
+```html
+<blockquote
+  style="
+    color: rgb(17, 24, 39);
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.75em;
+    font-size: 1.125em;
+  "
+>
+  <p>Please fill in here</p>
+</blockquote>
+```
+
+<blockquote
+  style={{
+    color: "rgb(17,24,39)",
+    fontStyle: "italic",
+    fontWeight: "600",
+    lineHeight: "1.75em",
+    fontSize: "1.25em",
+  }}
+>
+  <p>Please fill in here</p>
+</blockquote>
+
+```html
+<blockquote
+  style="
+    color: rgb(17, 24, 39);
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.75em;
+    font-size: 1.25em;
+  "
+>
+  <p>Please fill in here</p>
+</blockquote>
+```
+
+<blockquote
+  style={{
+    color: "rgb(17,24,39)",
+    fontStyle: "italic",
+    fontWeight: "600",
+    lineHeight: "2em",
+    fontSize: "1.5em",
+  }}
+>
+  <p>Please fill in here</p>
+</blockquote>
+
+```html
+<blockquote
+  style="
+    color: rgb(17, 24, 39);
+    font-style: italic;
+    font-weight: 600;
+    line-height: 2em;
+    font-size: 1.5em;
+  "
+>
+  <p>Please fill in here</p>
+</blockquote>
+```
+
+  </TabItem>
+</Tabs>
+
+### Images
+
+<Tabs>
+  <TabItem label="Rounded corners" value="Rounded corners">
+    <b>Border radius</b>
+    
+    <img style={{
+      borderRadius: '.5em',
+      maxWidth: '32em',
+      height: 'auto',
+      display: 'block',
+      verticalAlign: 'middle'
+    }} src="https://flowbite.com/docs/images/examples/image-1@2x.jpg" alt="image description"/>
+
+```html
+<img
+  style="
+    border-radius: 0.5em;
+    max-width: 32em;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+```
+
+<b>Full circle</b>
+
+<img
+  style={{
+    borderRadius: "9999px",
+    width: "24em",
+    height: "24em",
+    maxWidth: "100%",
+    display: "block",
+    verticalAlign: "middle",
+  }}
+  src="https://flowbite.com/docs/images/examples/image-4@2x.jpg"
+  alt="image description"
+/>
+
+```html
+<img
+  style="
+    border-radius: 9999px;
+    width: 24em;
+    height: 24em;
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.com/docs/images/examples/image-4@2x.jpg"
+  alt="image description"
+/>
+```
+
+  </TabItem>
+  <TabItem label='Image card' value='Image card'>
+    
+    <figure style={{
+        transitionDuration: '.3s',
+        transitionProperty: 'all',
+        transitionTimingFunction: 'cubic-bezier(.4,0,.2,1)',
+        filter: 'grayscale(100%)',
+        cursor: 'pointer',
+        maxWidth: '24em',
+        position: 'relative',
+        margin: '0'
+      }}>
+      <a href="#" style={{
+        color: 'inherit',
+        textDecoration: 'inherit'
+      }}>
+        <img style={{
+          borderRadius: '.5em',
+          height: 'auto',
+          maxWidth: '100%',
+          display: 'block',
+          verticalAlign: 'middle'
+        }} src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" alt="image description" />
+      </a>
+      <figcaption style={{
+        color: 'rgb(255,255,255)',
+        lineHeight: '1.75em',
+        fontSize: '1.125em',
+        paddingLeft: '1em',
+        paddingRight: '1em',
+        bottom: '1.5em',
+        position: 'absolute'
+      }}>
+          <p>Please fill in here</p>
+      </figcaption>
+    </figure>
+
+```html
+<figure
+  style="
+    transition-property: all;
+    transition-timing-function: cubic-bezier(
+      0.4,
+      0,
+      0.2,
+      1
+    );
+    filter: 'grayscale(100%)';
+    cursor: pointer;
+    max-width: 24em;
+    position: relative;
+    margin: 0
+  "
+>
+  <a href="#" style="color: inherit; text-decoration: inherit">
+    <img
+      style="
+        border-radius: 0.5em;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        vertical-align: middle;
+      "
+      src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png"
+      alt="image description"
+    />
+  </a>
+  <figcaption
+    style="
+      color: rgb(255, 255, 255);
+      line-height: 1.75em;
+      font-size: 1.125em;
+      padding-left: 1em;
+      padding-right: 1em;
+      bottom: 1.5em;
+      position: absolute;
+    "
+  >
+    <p>Please fill in here</p>
+  </figcaption>
+</figure>
+```
+
+  </TabItem>
+
+  <TabItem label='Image effects' value='Image effects'>
+    <b>Grayscale</b><br/>
+    <img style={{
+      transitionDuration: '.3s',
+      transitionProperty: 'all',
+      transitionTimingFunction: 'cubic-bezier(.4,0,.2,1)',
+      filter: 'grayscale(100%)',
+      borderRadius: '.5em',
+      cursor: 'pointer',
+      maxWidth: '32em',
+      height: 'auto',
+      display: 'block',
+      verticalAlign: 'middle'
+    }} src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png" alt="image description" />
+
+```html
+<img
+  style="
+    transition-property: all;
+    transition-timing-function: cubic-bezier(
+      0.4,
+      0,
+      0.2,
+      1
+    );
+    filter: grayscale(100%);
+    border-radius: 0.5em;
+    cursor: pointer;
+    max-width: 32em;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png"
+  alt="image description"
+/>
+```
+
+  </TabItem>
+
+  <TabItem label='Alignment' value='Alignment'>
+    <b>Left</b><br/>
+    
+    <img style={{
+      maxWidth: '32em',
+      height: 'auto',
+      display: 'block',
+      verticalAlign: 'middle'
+    }} src="https://flowbite.com/docs/images/examples/image-1@2x.jpg" alt="image description" />
+
+```html
+<img
+  style="
+    max-width: 32em;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+```
+
+<b>center</b>
+<br />
+
+<img
+  style={{
+    maxWidth: "32em",
+    height: "auto",
+    marginLeft: "auto",
+    marginRight: "auto",
+    display: "block",
+    verticalAlign: "middle",
+  }}
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+
+```html
+<img
+  style="
+    max-width: 32em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+```
+
+<b>right</b>
+<br />
+
+<img
+  style={{
+    maxWidth: "32em",
+    height: "auto",
+    marginLeft: "auto",
+    display: "block",
+    verticalAlign: "middle",
+  }}
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+
+```html
+<img
+  style="
+    max-width: 32em;
+    height: auto;
+    margin-left: auto;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+```
+
+  </TabItem>
+
+  <TabItem label='Sizes' value='Sizes'>
+    <b>Small</b><br/>
+    
+    <img style={{
+      maxWidth: '20em',
+      height: 'auto',
+      display: 'block',
+      verticalAlign: 'middle'
+    }}  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg" alt="image description" />
+
+```html
+<img
+  style="
+    max-width: 20em;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+```
+
+<b>Medium</b>
+<br />
+
+<img
+  style={{
+    maxWidth: "28em",
+    height: "auto",
+    display: "block",
+    verticalAlign: "middle",
+  }}
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+
+```html
+<img
+  style="
+    max-width: 28em;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+```
+
+<b>Large</b>
+<br />
+
+<img
+  style={{
+    maxWidth: "36em",
+    height: "auto",
+    display: "block",
+    verticalAlign: "middle",
+  }}
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+
+```html
+<img
+  style="
+    max-width: 36em;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+```
+
+<b>Full width</b>
+<br />
+
+<img
+  style={{
+    maxWidth: "100%",
+    height: "auto",
+    display: "block",
+    verticalAlign: "middle",
+  }}
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+
+```html
+<img
+  style="
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+  "
+  src="https://flowbite.com/docs/images/examples/image-1@2x.jpg"
+  alt="image description"
+/>
+```
+
+  </TabItem>
+</Tabs>
+
+### Lists
+
+<Tabs>
+  <TabItem label='Unordored list' value='Unordored list'>
+    <b>Nested</b>
+    
+    <ul style={{
+      color: 'rgb(107,114,128)',
+      listStyleType: 'disc',
+      listStylePosition: 'inside',
+      margin: '0',
+      padding: '0'
+    }}>
+        <li>
+            Please fill in here
+            <ol style={{
+              paddingLeft: '1.25em',
+              listStyleType: 'decimal',
+              listStylePosition: 'inside',
+              marginTop: '.5em',
+            }}>
+                <li>Please fill in here</li>
+                <li style={{
+                  marginTop: 'calc(.25em*(1 - 0))'
+                }}>Please fill in here</li>
+                <li style={{
+                  marginTop: 'calc(.25em*(1 - 0))'
+                }}>Please fill in here</li>
+            </ol>
+        </li>
+        <li style={{
+          marginBottom: 'calc(1em*0)',
+          marginTop: 'calc(1em*(1 - 0))'
+        }}>
+            Please fill in here
+            <ul style={{
+              paddingLeft: '1.25em',
+              listStyleType: 'decimal',
+              listStylePosition: 'inside',
+              marginTop: '.5em',
+            }}>
+                <li>Please fill in here</li>
+                <li style={{
+                  marginBottom: 'calc(.25em*0)',
+                  marginTop: 'calc(.25em*(1 - 0))'
+                }}>Please fill in here</li>
+                <li style={{
+                  marginBottom: 'calc(.25em*0)',
+                  marginTop: 'calc(.25em*(1 - 0))'
+                }}>Please fill in here</li>
+            </ul>
+        </li>
+        <li style={{
+          marginBottom: 'calc(1em*0)',
+          marginTop: 'calc(1em*(1 - 0))'
+        }}>
+            Please fill in here
+            <ul style={{
+              paddingLeft: '1.25em',
+              listStyleType: 'decimal',
+              listStylePosition: 'inside',
+              marginTop: '.5em',
+            }}>
+                <li>Please fill in here</li>
+                <li style={{
+                  marginBottom: 'calc(.25em*0)',
+                  marginTop: 'calc(.25em*(1 - 0))'
+                }}>Please fill in here</li>
+                <li style={{
+                  marginBottom: 'calc(.25em*0)',
+                  marginTop: 'calc(.25em*(1 - 0))'
+                }}>Please fill in here</li>
+            </ul>
+        </li>
+    </ul>
+
+```html
+<ul
+  style="
+    color: rgb(107, 114, 128);
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+  "
+>
+  <li>
+    Please fill in here
+    <ol
+      style="
+        padding-left: 1.25em;
+        list-style-type: decimal;
+        list-style-position: inside;
+        margin-top: 0.5em;
+      "
+    >
+      <li>Please fill in here</li>
+      <li style="margin-top: calc(0.25em * (1 - 0))">Please fill in here</li>
+      <li style="margin-top: calc(0.25em * (1 - 0))">Please fill in here</li>
+    </ol>
+  </li>
+  <li
+    style="
+      margin-bottom: calc(1em * 0);
+      margin-top: calc(1em * (1 - 0));
+    "
+  >
+    Please fill in here
+    <ul
+      style="
+        padding-left: 1.25em;
+        list-style-type: decimal;
+        list-style-position: inside;
+        margin-top: 0.5em;
+      "
+    >
+      <li>Please fill in here</li>
+      <li
+        style="
+          margin-bottom: calc(0.25em * 0);
+          margin-top: calc(0.25em * (1 - 0));
+        "
+      >
+        Please fill in here
+      </li>
+      <li
+        style="
+          margin-bottom: calc(0.25em * 0);
+          margin-top: calc(0.25em * (1 - 0));
+        "
+      >
+        Please fill in here
+      </li>
+    </ul>
+  </li>
+  <li
+    style="
+      margin-bottom: calc(1em * 0);
+      margin-top: calc(1em * (1 - 0));
+    "
+  >
+    Please fill in here
+    <ul
+      style="
+        padding-left: 1.25em;
+        list-style-type: decimal;
+        list-style-position: inside;
+        margin-top: 0.5em;
+      "
+    >
+      <li>Please fill in here</li>
+      <li
+        style="
+          margin-bottom: calc(0.25em * 0);
+          margin-top: calc(0.25em * (1 - 0));
+        "
+      >
+        Please fill in here
+      </li>
+      <li
+        style="
+          margin-bottom: calc(0.25em * 0);
+          margin-top: calc(0.25em * (1 - 0));
+        "
+      >
+        Please fill in here
+      </li>
+    </ul>
+  </li>
+</ul>
+```
+
+<b>Unstyled</b>
+<h2
+  style={{
+    color: "rgb(17,24,39)",
+    fontWeight: "600",
+    lineHeight: "1.75em",
+    fontSize: "1.125em",
+    marginBottom: ".5em",
+    marginTop: "0",
+    marginLeft: "0",
+    marginRight: "0",
+  }}
+>
+  Please fill in here
+</h2>
+<ul
+  style={{
+    color: "rgb(107,114,128)",
+    listStyleType: "none",
+    listStylePosition: "inside",
+    maxWidth: "28em",
+    margin: "0",
+    padding: "0",
+  }}
+>
+  <li>Please fill in here</li>
+  <li
+    style={{
+      marginBottom: "calc(.25em * 0)",
+      marginTop: "calc(.25em*(1 - 0))",
+    }}
+  >
+    Please fill in here
+  </li>
+  <li
+    style={{
+      marginBottom: "calc(.25em * 0)",
+      marginTop: "calc(.25em*(1 - 0))",
+    }}
+  >
+    Please fill in here
+  </li>
+</ul>
+
+```html
+<h2
+  style="
+    color: rgb(17, 24, 39);
+    font-weight: 600;
+    line-height: 1.75em;
+    font-size: 1.125em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  "
+>
+  Please fill in here
+</h2>
+
+<ul
+  style="
+    color: rgb(107, 114, 128);
+    list-style-type: none;
+    list-style-position: inside;
+    max-width: 28em;
+    margin: 0;
+    padding: 0;
+  "
+>
+  <li>Please fill in here</li>
+  <li
+    style="
+      margin-bottom: calc(0.25em * 0);
+      margin-top: calc(0.25em * (1 - 0));
+    "
+  >
+    Please fill in here
+  </li>
+  <li
+    style="
+      margin-bottom: calc(0.25em * 0);
+      margin-top: calc(0.25em * (1 - 0));
+    "
+  >
+    Please fill in here
+  </li>
+</ul>
+```
+
+  </TabItem>
+
+  <TabItem label='Ordered list' value='Ordered list'>
+    
+    <h2 style={{
+      color: 'rgb(17,24,39)',
+      fontWeight: '600',
+      lineHeight: '1.75em',
+      fontSize: '1.125em',
+      marginBottom: '.5em'
+    }}>Please fill in here</h2>
+    <ol style={{
+      color: 'rgb(107,114,128)',
+      listStyleType: 'decimal',
+      listStylePosition: 'inside',
+      maxWidth: '28em',
+      margin: '0',
+      padding: '0'
+    }}>
+        <li>
+            <span>Please fill in here</span><span>Please fill in here</span>
+        </li>
+        <li style={{
+          '--tw-space-y-reverse': '0',
+          marginBottom: 'calc(.25em*var(--tw-space-y-reverse))',
+          marginTop: 'calc(.25em*(1 - var(--tw-space-y-reverse)))'
+        }}>
+            <span style={{
+              color: 'rgb(17,24,39)',
+              fontWeight: '600'
+            }}>Please fill in here</span><span style={{
+              color: 'rgb(17,24,39)',
+              fontWeight: '600'
+            }}>Please fill in here</span>
+        </li>
+        <li style={{
+          '--tw-space-y-reverse': '0',
+          marginBottom: 'calc(.25em*var(--tw-space-y-reverse))',
+          marginTop: 'calc(.25em*(1 - var(--tw-space-y-reverse)))'
+        }}>
+            <span style={{
+              color: 'rgb(17,24,39)',
+              fontWeight: '600'
+            }}>Please fill in here</span><span style={{
+              color: 'rgb(17,24,39)',
+              fontWeight: '600'
+            }}>Please fill in here</span>
+        </li>
+    </ol>
+
+```html
+<h2
+  style="
+    color: rgb(17, 24, 39);
+    font-weight: 600;
+    line-height: 1.75em;
+    font-size: 1.125em;
+    margin-bottom: 0.5em;
+  "
+>
+  Please fill in here
+</h2>
+<ol
+  style="
+    color: rgb(107, 114, 128);
+    list-style-type: decimal;
+    list-style-position: inside;
+    max-width: 28em;
+    margin: 0;
+    padding: 0;
+  "
+>
+  <li>
+    <span>Please fill in here</span>
+    <span>Please fill in here</span>
+  </li>
+  <li
+    style="
+      --tw-space-y-reverse: 0;
+      margin-bottom: calc(
+        0.25em * var(--tw-space-y-reverse)
+      );
+      margin-top: calc(
+        0.25em * (1 - var(--tw-space-y-reverse))
+      );
+    "
+  >
+    <span style="color: rgb(17, 24, 39); font-weight: 600">
+      Please fill in here
+    </span>
+    <span style="color: rgb(17, 24, 39); font-weight: 600">
+      Please fill in here
+    </span>
+  </li>
+  <li
+    style="
+      --tw-space-y-reverse: 0;
+      margin-bottom: calc(
+        0.25em * var(--tw-space-y-reverse)
+      );
+      margin-top: calc(
+        0.25em * (1 - var(--tw-space-y-reverse))
+      );
+    "
+  >
+    <span style="color: rgb(17, 24, 39); font-weight: 600">
+      Please fill in here
+    </span>
+    <span style="color: rgb(17, 24, 39); font-weight: 600">
+      Please fill in here
+    </span>
+  </li>
+</ol>
+```
+
+<b>Nested</b>
+
+<ol
+  style={{
+    "--tw-text-opacity": "1",
+    color: "rgb(107,114,128)",
+    listStyleType: "decimal",
+    listStylePosition: "inside",
+    margin: "0",
+    padding: "0",
+  }}
+>
+  <li>
+    Please fill in here
+    <ul
+      style={{
+        paddingLeft: "1.25em",
+        listStyleType: "disc",
+        listStylePosition: "inside",
+        marginTop: ".5em",
+      }}
+    >
+      <li>Please fill in here</li>
+      <li
+        style={{
+          "--tw-space-y-reverse": "0",
+          marginBottom: "calc(.25em*var(--tw-space-y-reverse))",
+          marginTop: "calc(.25em*(1 - var(--tw-space-y-reverse)))",
+        }}
+      >
+        Please fill in here
+      </li>
+      <li
+        style={{
+          "--tw-space-y-reverse": "0",
+          marginBottom: "calc(.25em*var(--tw-space-y-reverse))",
+          marginTop: "calc(.25em*(1 - var(--tw-space-y-reverse)))",
+        }}
+      >
+        Please fill in here
+      </li>
+    </ul>
+  </li>
+  <li>
+    Please fill in here
+    <ul
+      style={{
+        paddingLeft: "1.25em",
+        listStyleType: "disc",
+        listStylePosition: "inside",
+        marginTop: ".5em",
+      }}
+    >
+      <li>Please fill in here</li>
+      <li
+        style={{
+          "--tw-space-y-reverse": "0",
+          marginBottom: "calc(.25em*var(--tw-space-y-reverse))",
+          marginTop: "calc(.25em*(1 - var(--tw-space-y-reverse)))",
+        }}
+      >
+        Please fill in here
+      </li>
+      <li
+        style={{
+          "--tw-space-y-reverse": "0",
+          marginBottom: "calc(.25em*var(--tw-space-y-reverse))",
+          marginTop: "calc(.25em*(1 - var(--tw-space-y-reverse)))",
+        }}
+      >
+        Please fill in here
+      </li>
+    </ul>
+  </li>
+  <li>
+    Please fill in here
+    <ul
+      style={{
+        paddingLeft: "1.25em",
+        listStyleType: "disc",
+        listStylePosition: "inside",
+        marginTop: ".5em",
+      }}
+    >
+      <li>Please fill in here</li>
+      <li
+        style={{
+          "--tw-space-y-reverse": "0",
+          marginBottom: "calc(.25em*var(--tw-space-y-reverse))",
+          marginTop: "calc(.25em*(1 - var(--tw-space-y-reverse)))",
+        }}
+      >
+        Please fill in here
+      </li>
+      <li
+        style={{
+          "--tw-space-y-reverse": "0",
+          marginBottom: "calc(.25em*var(--tw-space-y-reverse))",
+          marginTop: "calc(.25em*(1 - var(--tw-space-y-reverse)))",
+        }}
+      >
+        Please fill in here
+      </li>
+    </ul>
+  </li>
+</ol>
+
+```html
+<ol
+  style="
+    --tw-text-opacity: 1;
+    color: rgb(107, 114, 128);
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+  "
+>
+  <li>
+    Please fill in here
+    <ul
+      style="
+        padding-left: 1.25em;
+        list-style-type: disc;
+        list-style-position: inside;
+        margin-top: 0.5em;
+      "
+    >
+      <li>Please fill in here</li>
+      <li
+        style="
+          --tw-space-y-reverse: 0;
+          margin-bottom: calc(
+            0.25em * var(--tw-space-y-reverse)
+          );
+          margin-top: calc(
+            0.25em * (1 - var(--tw-space-y-reverse))
+          );
+        "
+      >
+        Please fill in here
+      </li>
+      <li
+        style="
+          --tw-space-y-reverse: 0;
+          margin-bottom: calc(
+            0.25em * var(--tw-space-y-reverse)
+          );
+          margin-top: calc(
+            0.25em * (1 - var(--tw-space-y-reverse))
+          );
+        "
+      >
+        Please fill in here
+      </li>
+    </ul>
+  </li>
+  <li>
+    Please fill in here
+    <ul
+      style="
+        padding-left: 1.25em;
+        list-style-type: disc;
+        list-style-position: inside;
+        margin-top: 0.5em;
+      "
+    >
+      <li>Please fill in here</li>
+      <li
+        style="
+          --tw-space-y-reverse: 0;
+          margin-bottom: calc(
+            0.25em * var(--tw-space-y-reverse)
+          );
+          margin-top: calc(
+            0.25em * (1 - var(--tw-space-y-reverse))
+          );
+        "
+      >
+        Please fill in here
+      </li>
+      <li
+        style="
+          --tw-space-y-reverse: 0;
+          margin-bottom: calc(
+            0.25em * var(--tw-space-y-reverse)
+          );
+          margin-top: calc(
+            0.25em * (1 - var(--tw-space-y-reverse))
+          );
+        "
+      >
+        Please fill in here
+      </li>
+    </ul>
+  </li>
+  <li>
+    Please fill in here
+    <ul
+      style="
+        padding-left: 1.25em;
+        list-style-type: disc;
+        list-style-position: inside;
+        margin-top: 0.5em;
+      "
+    >
+      <li>Please fill in here</li>
+      <li
+        style="
+          --tw-space-y-reverse: 0;
+          margin-bottom: calc(
+            0.25em * var(--tw-space-y-reverse)
+          );
+          margin-top: calc(
+            0.25em * (1 - var(--tw-space-y-reverse))
+          );
+        "
+      >
+        Please fill in here
+      </li>
+      <li
+        style="
+          --tw-space-y-reverse: 0;
+          margin-bottom: calc(
+            0.25em * var(--tw-space-y-reverse)
+          );
+          margin-top: calc(
+            0.25em * (1 - var(--tw-space-y-reverse))
+          );
+        "
+      >
+        Please fill in here
+      </li>
+    </ul>
+  </li>
+</ol>
+```
+
+  </TabItem>
+</Tabs>
+
+### HR
+
+<Tabs>
+  <TabItem label="Default HR" value="Default HR">
+    <p
+      style={{
+        color: "rgb(107,114,128)",
+        margin: "0",
+      }}
+    >
+      Please fill in here
+    </p>
+    <hr
+      style={{
+        backgroundColor: "rgb(229,231,235)",
+        borderWidth: "0",
+        height: "1px",
+        marginBottom: "2em",
+        marginTop: "2em",
+        color: "inherit",
+      }}
+    />
+    <p
+      style={{
+        color: "rgb(107,114,128)",
+        margin: "0",
+      }}
+    >
+      Please fill in here
+    </p>
+
+```html
+<p style="color: rgb(107, 114, 128); margin: 0">Please fill in here</p>
+<hr
+  style="
+    background-color: rgb(229, 231, 235);
+    border-width: 0;
+    height: 1px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    color: inherit;
+  "
+/>
+<p style="color: rgb(107, 114, 128); margin: 0">Please fill in here</p>
+```
+
+  </TabItem>
+
+  <TabItem label="Trimmed" value="Trimmed">
+    
+    <p style={{
+      color: 'rgb(107,114,128)',
+      margin: '0'
+    }}>Please fill in here</p>
+    <hr style={{
+      backgroundColor: 'rgb(243,244,246)',
+      borderWidth: '0',
+      borderRadius: '.25em',
+      width: '12em',
+      height: '.25em',
+      marginBottom: '1em',
+      marginTop: '1em',
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      color: 'inherit'
+    }} />
+    <p style={{
+      color: 'rgb(107,114,128)',
+      margin: '0'
+    }}>Please fill in here</p>
+
+```html
+<p style="color: rgb(107, 114, 128); margin: 0">Please fill in here</p>
+<hr
+  style="
+    background-color: rgb(243, 244, 246);
+    border-width: 0;
+    border-radius: 0.25em;
+    width: 12em;
+    height: 0.25em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    color: inherit;
+  "
+/>
+<p style="color: rgb(107, 114, 128); margin: 0">Please fill in here</p>
+```
+
+  </TabItem>
+
+  <TabItem label='Icon HR' value='Icon HR'>
+    
+    <p style={{
+      color: 'rgb(107,114,128)',
+      margin: '0'
+    }}>Please fill in here</p>
+    <div style={{
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: '100%',
+      display: 'inline-flex'
+    }}>
+        <hr style={{
+          backgroundColor: 'rgb(229,231,235)',
+          borderWidth: '0',
+          borderRadius: '.25em',
+          width: '16em',
+          height: '.25em',
+          marginBottom: '2em',
+          marginTop: '2em',
+          marginLeft: '0',
+          marginRight: '0'
+        }} />
+        <div style={{
+          paddingLeft: '1em',
+          paddingRight: '1em', 
+          backgroundColor: 'rgb(255,255,255)',
+          transform: 'translate(-50%,0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1)',
+          left: '50%',
+          position: 'absolute'
+        }}>
+            <svg style={{
+              color: 'rgb(55,65,81)',
+              width: '1.25em',
+              height: '1.25em',
+              display: 'block',
+              verticalAlign: 'middle'
+            }} aria-hidden="true"  viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/></svg>
+        </div>
+    </div>
+    <p style={{
+      color: 'rgb(107,114,128)',
+      margin: '0'
+    }}>Please fill in here</p>
+
+```html
+<p style="color: rgb(107, 114, 128); margin: 0">Please fill in here</p>
+<div
+  style="
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: inline-flex;
+  "
+>
+  <hr
+    style="
+      background-color: rgb(229, 231, 235);
+      border-width: 0;
+      border-radius: 0.25em;
+      width: 16em;
+      height: 0.25em;
+      margin-bottom: 2em;
+      margin-top: 2em;
+      margin-left: 0;
+      margin-right: 0;
+    "
+  />
+  <div
+    style="
+      padding-left: 1em;
+      padding-right: 1em;
+      background-color: rgb(255, 255, 255);
+      transform: translate(-50%, 0) rotate(0) skewX(0)
+        skewY(0) scaleX(1) scaleY(1);
+      left: 50%;
+      position: absolute;
+    "
+  >
+    <svg
+      style="
+        color: rgb(55, 65, 81);
+        width: 1.25em;
+        height: 1.25em;
+        display: block;
+        vertical-align: middle;
+      "
+      aria-hidden="true"
+      viewBox="0 0 24 27"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+        fill="currentColor"
+      ></path>
+    </svg>
+  </div>
+</div>
+
+<p style="color: rgb(107, 114, 128); margin: 0">Please fill in here</p>
+```
+
+  </TabItem>
+
+  <TabItem label='HR with text' value='HR with text'>
+    
+    <p style={{
+      color: 'rgb(107,114,128)',
+      margin: '0'
+    }}>Please fill in here</p>
+    <div style={{
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: '100%',
+      display: 'inline-flex'
+    }}>
+        <hr style={{
+          backgroundColor: 'rgb(229,231,235)',
+          borderWidth: '0',
+          width: '16em',
+          height: '1px',
+          marginBottom: '2em',
+          marginTop: '2em',
+          marginLeft: '0',
+          marginRight: '0'
+        }} />
+        <span style={{
+          color: 'rgb(17,24,39)',
+          fontWeight: '500',
+          paddingLeft: '.75em',
+          paddingRight: '.75em',
+          backgroundColor: 'rgb(255 255 255/1)',
+          transform: 'translate(-50%,0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1)',
+          left: '50%',
+          position: 'absolute'
+        }}>Please fill in here</span>
+    </div>
+    <p style={{
+      color: 'rgb(107,114,128)',
+      margin: '0'
+    }}>Please fill in here</p>
+
+```html
+<p style="color: rgb(107, 114, 128); margin: 0">Please fill in here</p>
+<div
+  style="
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: inline-flex;
+  "
+>
+  <hr
+    style="
+      background-color: rgb(229, 231, 235);
+      border-width: 0;
+      width: 16em;
+      height: 1px;
+      margin-bottom: 2em;
+      margin-top: 2em;
+      margin-left: 0;
+      margin-right: 0;
+    "
+  />
+  <span
+    style="
+      color: rgb(17, 24, 39);
+      font-weight: 500;
+      padding-left: 0.75em;
+      padding-right: 0.75em;
+      background-color: rgb(255 255 255/1);
+      transform: translate(-50%, 0) rotate(0) skewX(0)
+        skewY(0) scaleX(1) scaleY(1);
+      left: 50%;
+      position: absolute;
+    "
+  >
+    Please fill in here
+  </span>
+</div>
+
+<p style="color: rgb(107, 114, 128); margin: 0">Please fill in here</p>
+```
+
+  </TabItem>
+</Tabs>
